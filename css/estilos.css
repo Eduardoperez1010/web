@@ -42,7 +42,7 @@ header{
 
 .hamburguer{
     position: fixed;
-    top: 10px;
+    top: 30px;
     right: 30px;
     background: whitesmoke;
     width: 40px;
@@ -50,7 +50,6 @@ header{
     cursor: pointer;
     border-radius: 12px;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-
 }
 
 .menu-navegacion{
@@ -190,7 +189,7 @@ showImage{
 }
 
 .cont-exper img{
-    width: 6¿75%;
+    width: 75%;
     display: block;
     margin: auto;
     text-align: center;
