@@ -30,6 +30,7 @@ header{
 }
 
 .head{
+    text-align: center;
     padding: 0;
     height: 100%;
     display: flex;
@@ -64,7 +65,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     /*transition: transform .3s ease-in-out;*/
-    transform: translate(0);
+    transform: translate(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 .spread{
@@ -123,7 +124,7 @@ header{
     margin-right: 5px;
 }
 .galery{
-    background: whitesmoke;
+    background: rgba(48, 8, 228, 0.5);
 }
 .contenedor-galeria{
     display: flex;
@@ -131,6 +132,7 @@ header{
     flex-wrap: wrap;
 }
 .img-galeria{
+    object-fit: cover;
     width: 30%;
     display: block;
     margin-bottom: 15px;
@@ -138,6 +140,7 @@ header{
     cursor: pointer;
 }
 .imagen-light{
+    object-fit: cover;
     position: fixed;
     background: rgba(0, 0, 0, .5);
     width: 100%;
@@ -182,24 +185,25 @@ showImage{
 }
 
 .cont-exper{
-    width: 30%;
-    text-align: center;
-    margin-bottom: 20px;
+    width: 50%;
+    margin-bottom: 25px;
 }
 
 .cont-exper img{
-    width: 80%;
+    width: 6¿75%;
     display: block;
     margin: auto;
+    text-align: center;
 }
 .n-expert{
     display: inline-block;
     margin-top: 20px;
     width: 100%;
     font-weight: 600;
+    text-align: center;
 }
 footer{
-    background: rgb(48, 8, 228);
+    background: rgba(48, 8, 228, 0.5);
     padding-bottom: 0.1px;
 }
 .footer-content{
@@ -256,10 +260,85 @@ footer{
 
 /*Crear el sitio web responsivo*/
 
-@media screen and (max-width:500px){
+@media screen and (max-width:800px){
     .menu-navegacion{
         width: 50vw;
     }
+    .titulo{
+        font-size: 40px;
+    }
+    .contenedor-servicio im{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .checklist-servicio{
+        width: 80%;
+    }
+    .service{
+        margin-bottom: 30px;
+    }
+    .agregar-imagen{
+        width: 80%;
+    }
+    .img-galeria{
+        width: 45%;
+    }
+    .cont-exper{
+        width: 80%;
+    }
+    .footer-content{
+        justify-content: center;
+    }
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    .social-media-icon{
+        margin-left: 0;
+    }
+    .social-media i{
+        margin-left: 0;
+    }
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
 }
+
+@media screen and (max-width:500px){
+   
+
+    .menu-navegacion{
+        width: 65vw;
+    }
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .agregar-imagen{
+        width: 95%;
+    }
+    .img-galeria{
+        width: 95%;
+    }
+    .social-media{
+        width: 100%;
+    }
+    .contact-us{
+        width: 90%;
+    }
+}
+
+
+
+
+
 
 
