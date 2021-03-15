@@ -204,7 +204,7 @@ showImage{
 }
 footer{
     background-image: linear-gradient(to right, rgb(83, 12, 160) 0%, hsl(218, 97%, 57%) 100%);
-    padding-bottom: 0.1px;
+    padding-bottom: 0.2px;
 }
 .footer-content{
     display: flex;
